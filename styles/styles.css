@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Cambria, Georgia, Times New Roman, serif;
+}
+
+
 :root {
     --primary-color: slategray;
     --secondary-color: slateblue;
@@ -15,7 +27,6 @@
 }
 
 
-
 main{
     max-width: var(--main-width);
 }
@@ -24,9 +35,10 @@ main img{
     width: var(--image-width);
     height: auto;
     border: var(--border-radius) solid var(--secondary-color);
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px var(--shadow-color);
-    margin: 0 0 var(--margin);
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 nav{
@@ -63,6 +75,12 @@ aside img{
     
 }
 
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
 p{
     padding: 0;
 }
@@ -72,3 +90,17 @@ footer{
     border-top: var(--border-radius) solid var(--border-color);
     text-align: center;
 }
+
+    /* Class Selectors */
+    .box{
+        margin: 1rem;
+        border: 1px solid rgba(0,0,0, .1);
+        padding: 1rem;
+        background-color: #eee;
+        color: #000;
+    }
+
+    .indent {
+        padding-left: 2rem;
+
+    }
