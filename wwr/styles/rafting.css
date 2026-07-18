@@ -70,9 +70,11 @@ footer {
     align-items: center;
     gap: 16px;
     margin-top: 12px;
-    text-decoration: none;
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
 .socialmedia img {
     width: 32px;
     height: 32px;
@@ -123,6 +125,7 @@ h1 {
 }
 
 .hero article img {
+    float: right;
     width: 130px;
     height: auto;
     flex-shrink: 0;
