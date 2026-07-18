@@ -109,7 +109,7 @@ h1 {
     bottom: 24px;
     left: 24px;
     right: 24px;
-    background-color: rgba(38, 70, 83, 0.85); /* accent1-color with transparency */
+    background-color: rgba(38, 70, 83, 0.85); 
     color: #fff;
     padding: 16px;
     display: flex;
@@ -124,7 +124,6 @@ h1 {
 }
 
 .hero article img {
-    float: none;
     width: 130px;
     height: auto;
     flex-shrink: 0;
